@@ -28,7 +28,7 @@
 
 说明: 调用此接口可以获取首页分类最新视频列表
 
-**接口地址:** `ranking/archive`
+**接口地址:** `/ranking/archive`
 
 **必选参数:** `rid`: 分类 ID
 
@@ -52,11 +52,43 @@
 
 说明: 调用此接口可以获取搜索建议列表
 
-**接口地址:** `search/suggest`
+**接口地址:** `/search/suggest`
 
 **必选参数:** `keyword`: 搜索关键词
 
 **调用例子:** `/search/suggest?keyword=百妖谱`
+
+### 搜索(综合 - 默认排序)
+
+说明: 调用此接口可以获取搜索综合 - 默认排序数据
+
+**接口地址:** `/search`
+
+**必选参数:** `keyword`: 搜索关键词
+
+**必选参数:** `page`: 页数
+
+**必选参数:** `size`: 条数
+
+**调用例子:** `/search?keyword=百妖谱&page=1&size=1&context=`
+
+### 搜索分类
+
+说明: 调用此接口可以获取搜索分类数据
+
+**接口地址:** `/search/type`
+
+**必选参数:** `keyword`: 搜索关键词
+
+**必选参数:** `search_type`: 搜索类型(综合/番剧/UP主/影视)
+
+**必选参数:** `order`: 综合分类(默认排序/播放多/新发布/弹幕多)
+
+**必选参数:** `page`: 页数
+
+**必选参数:** `size`: 条数
+
+**调用例子:** `/search/type?keyword=百妖谱&search_type=video&order=pubdate&page=1&size=1`
 
 ### 直播首页
 
