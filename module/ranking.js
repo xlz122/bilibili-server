@@ -1,4 +1,4 @@
-// 首页列表
+// 排行榜 - 全站列表
 
 module.exports = (query, request) => {
   return request(
