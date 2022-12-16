@@ -6,6 +6,9 @@
 
 需要 NodeJS 8.12+ 环境
 
+![](./public/design-sketch/npm-6.4.1.svg)
+![](./public/design-sketch/node-8.12.0.svg)
+
 ## 简介
 
 本项目是提供B站web移动端api接口项目

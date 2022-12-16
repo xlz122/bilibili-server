@@ -10,31 +10,35 @@
 
 说明: 调用此接口可以获取首页列表
 
-**接口地址:** `/ranking`
+**接口地址:** `/index`
+
+**必选参数:** `page`: 页数
+
+**接口地址:** `/index?page=1`
 
 ### 分类列表 - 热门推荐
 
 说明: 调用此接口可以获取首页分类热门推荐列表
 
-**接口地址:** `/ranking/region`
+**接口地址:** `/index/region`
 
 **必选参数:** `rid`: 分类 ID
 
 **必选参数:** `day`: 天数
 
-**调用例子:** `/ranking/region?rid=1&day=7`
+**调用例子:** `/index/region?rid=1&day=7`
 
 ### 分类列表 - 最新视频
 
 说明: 调用此接口可以获取首页分类最新视频列表
 
-**接口地址:** `/ranking/archive`
+**接口地址:** `/index/archive`
 
 **必选参数:** `rid`: 分类 ID
 
 **必选参数:** `page`: 页数
 
-**调用例子:** `/ranking/archive?rid=1&page=1`
+**调用例子:** `/index/archive?rid=1&page=1`
 
 ### 默认搜索关键词
 
@@ -70,7 +74,7 @@
 
 **必选参数:** `size`: 条数
 
-**调用例子:** `/search?keyword=百妖谱&page=1&size=1&context=`
+**调用例子:** `/search?keyword=百妖谱&page=1&size=10&context=`
 
 ### 搜索分类
 
@@ -88,7 +92,7 @@
 
 **必选参数:** `size`: 条数
 
-**调用例子:** `/search/type?keyword=百妖谱&search_type=video&order=pubdate&page=1&size=1`
+**调用例子:** `/search/type?keyword=百妖谱&search_type=video&order=pubdate&page=1&size=10`
 
 ### 直播首页
 
@@ -139,6 +143,22 @@
 **必选参数:** `page`: 页数
 
 **调用例子:** `/video/comment?aid=432360606&page=1`
+
+### 排行榜 - 全站列表
+
+说明: 调用此接口可以获取排行榜全站列表
+
+**接口地址:** `/ranking`
+
+### 排行榜 - 热门推荐
+
+说明: 调用此接口可以获取排行榜热门分类推荐列表
+
+**接口地址:** `/ranking/region`
+
+**必选参数:** `rid`: 分类 ID
+
+**调用例子:** `/ranking/region?rid=1`
 
 ## 关于此文档
 
