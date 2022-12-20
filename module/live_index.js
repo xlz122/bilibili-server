@@ -6,7 +6,7 @@ module.exports = (query, request) => {
     `https://api.live.bilibili.com/room/v2/AppIndex/getAllList`,
     {
       device: 'phone',
-      platform: 'android',
+      platform: 'ios',
       scale: 3,
       build: 10000,
       protocol: '0,1',
