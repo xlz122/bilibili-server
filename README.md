@@ -11,7 +11,7 @@
 
 ## 简介
 
-本项目是提供B站web移动端api接口项目
+本项目一个是哔哩哔哩H5移动端接口项目
 
 ## 加入项目
 
@@ -37,5 +37,5 @@ yarn docs
 
 ## 写在最后
 
-* [The MIT License (MIT)](https://github.com/xlz122/bilibili-api/blob/master/LICENSE)
+* [The MIT License (MIT)](https://github.com/xlz122/bilibili-server/blob/master/LICENSE)
 * 本项目仅用于学习使用，切勿用于商业用途，否则产生的法律后果与作者无关。
