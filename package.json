@@ -1,5 +1,5 @@
 {
-  "name": "BilibiliApi",
+  "name": "bilibili-api",
   "version": "0.0.1",
   "description": "哔哩哔哩 NodeJS 版 API",
   "bin": "./app.js",
@@ -9,15 +9,15 @@
     "docs": "docsify serve --port 9008 ./docs"
   },
   "dependencies": {
-    "axios": "^0.24.0",
+    "axios": "^1.6.5",
     "express": "^4.18.2",
-    "express-fileupload": "^1.4.0",
+    "express-fileupload": "^1.4.3",
     "md5": "^2.3.0",
-    "nodemon": "^2.0.20",
-    "pac-proxy-agent": "^5.0.0",
+    "nodemon": "^3.0.3",
+    "pac-proxy-agent": "^7.0.1",
     "safe-decode-uri-component": "^1.2.1",
     "tunnel": "^0.0.6",
-    "yargs": "^17.6.2"
+    "yargs": "^17.7.2"
   },
   "engines": {
     "node": ">=12"
