@@ -1,4 +1,4 @@
-// 排行榜 - 热门推荐
+// 排行榜 - 分类列表
 
 module.exports = (query, request) => {
   return request(

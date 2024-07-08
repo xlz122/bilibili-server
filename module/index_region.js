@@ -1,4 +1,4 @@
-// 分类列表 - 热门推荐
+// 首页分类 - 热门推荐
 
 module.exports = (query, request) => {
   return request(

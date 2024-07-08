@@ -1,4 +1,4 @@
-// 热搜列表
+// 搜索 - 热搜列表
 
 module.exports = (query, request) => {
   return request(
