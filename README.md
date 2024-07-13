@@ -1,4 +1,4 @@
-# 哔哩哔哩 API
+# 哔哩哔哩API
 
 **特别声明：如果侵权，请提交 Issues 联系。**
 
@@ -11,11 +11,11 @@
 
 ## 简介
 
-本项目是提供B站web移动端api接口项目
+本项目一个是哔哩哔哩 NodeJS 版 API
 
 ## 加入项目
 
-如果想加入本项目开发，需将项目fork到自己的仓库下，功能开发完成后，提PR即可
+如果想加入本项目开发，需将项目fork到自己的仓库下，功能开发完成后，提PR即可。
 
 ## 运行
 
@@ -32,10 +32,12 @@ yarn start
 接口文档
 
 ```
+npm i docsify-cli -g
+
 yarn docs
 ```
 
 ## 写在最后
 
-* [The MIT License (MIT)](https://github.com/xlz122/bilibili-api/blob/master/LICENSE)
+* [The MIT License (MIT)](https://github.com/xlz122/bilibili-server/blob/master/LICENSE)
 * 本项目仅用于学习使用，切勿用于商业用途，否则产生的法律后果与作者无关。
