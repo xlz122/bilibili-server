@@ -1,4 +1,4 @@
-// 搜索建议
+// 搜索 - 搜索建议
 
 module.exports = (query, request) => {
   return request(

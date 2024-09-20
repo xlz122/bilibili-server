@@ -4,8 +4,8 @@ const partitionData = [
     name: '动画',
     children: [
       { rid: 1, name: '推荐' }, { rid: 24, name: 'MAD·AMV' }, { rid: 25, name: 'MMD·3D' },
-      { rid: 47, name: '短片·手书·配音' }, { rid: 210, name: '手办·模玩' }, { rid: 86, name: '特摄' },
-      { rid: 253, name: '动漫杂谈' }, { rid: 27, name: '综合' }
+      { rid: 47, name: '同人·手书' }, { rid: 257, name: '配音' }, { rid: 210, name: '模玩·周边' },
+      { rid: 86, name: '特摄' }, { rid: 253, name: '动漫杂谈' }, { rid: 27, name: '综合' }
     ]
   },
   {
@@ -17,10 +17,10 @@ const partitionData = [
     ]
   },
   {
-    tid: 163,
+    tid: 153,
     name: '国创',
     children: [
-      { rid: 163, name: '推荐' }, { rid: 153, name: '国产动画' }, { rid: 168, name: '国产原创相关' },
+      { rid: 167, name: '推荐' }, { rid: 153, name: '国产动画' }, { rid: 168, name: '国产原创相关' },
       { rid: 169, name: '布袋戏' }, { rid: 195, name: '动态漫·广播剧' }, { rid: 170, name: '资讯' }
     ]
   },
@@ -28,9 +28,11 @@ const partitionData = [
     tid: 3,
     name: '音乐',
     children: [
-      { rid: 3, name: '推荐' }, { rid: 28, name: '原创音乐' }, { rid: 31, name: '翻唱' },
-      { rid: 59, name: '演奏' }, { rid: 30, name: 'VOCALOID·UTAU' }, { rid: 29, name: '音乐现场' },
-      { rid: 193, name: 'MV' }, { rid: 243, name: '乐评盘点' }, { rid: 244, name: '音乐教学' }
+      { rid: 3, name: '推荐' }, { rid: 28, name: '原创音乐' }, { rid: 29, name: '音乐现场' },
+      { rid: 31, name: '翻唱' }, { rid: 59, name: '演奏' }, { rid: 243, name: '乐评盘点' },
+      { rid: 30, name: 'VOCALOID·UTAU' }, { rid: 193, name: 'MV' }, { rid: 266, name: '音乐粉丝饭拍' },
+      { rid: 265, name: 'AI音乐' }, { rid: 267, name: '电台' }, { rid: 244, name: '音乐教学' },
+      { rid: 130, name: '音乐综合' }
     ]
   },
   {
@@ -38,8 +40,8 @@ const partitionData = [
     name: '舞蹈',
     children: [
       { rid: 129, name: '推荐' }, { rid: 20, name: '宅舞' }, { rid: 198, name: '街舞' },
-      { rid: 199, name: '明星舞蹈' }, { rid: 200, name: '中国舞' }, { rid: 154, name: '舞蹈综合' },
-      { rid: 156, name: '舞蹈教程' }
+      { rid: 199, name: '明星舞蹈' }, { rid: 200, name: '国风舞蹈' }, { rid: 255, name: '颜值·网红舞' },
+      { rid: 154, name: '舞蹈综合' }, { rid: 156, name: '舞蹈教程' }
     ]
   },
   {
@@ -64,7 +66,7 @@ const partitionData = [
     tid: 188,
     name: '科技',
     children: [
-      { rid: 188, name: '推荐' }, { rid: 95, name: '数码' }, { rid: 23, name: '软件应用' },
+      { rid: 188, name: '推荐' }, { rid: 95, name: '数码' }, { rid: 230, name: '软件应用' },
       { rid: 231, name: '计算机技术' }, { rid: 232, name: '科工机械' }, { rid: 233, name: '极客DIY' }
     ]
   },
@@ -81,18 +83,19 @@ const partitionData = [
     tid: 223,
     name: '汽车',
     children: [
-      { rid: 223, name: '推荐' }, { rid: 245, name: '赛车' }, { rid: 246, name: '改装玩车' },
-      { rid: 247, name: '新能源车' }, { rid: 248, name: '房车' }, { rid: 240, name: '摩托车' },
-      { rid: 227, name: '购车攻略' }, { rid: 176, name: '汽车生活' }
+      { rid: 223, name: '推荐' }, { rid: 258, name: '汽车知识科普' }, { rid: 227, name: '购车攻略' },
+      { rid: 247, name: '新能源车' }, { rid: 245, name: '赛车' }, { rid: 246, name: '改装玩车' },
+      { rid: 240, name: '摩托车' }, { rid: 248, name: '房车' }, { rid: 176, name: '汽车生活' }
     ]
   },
   {
     tid: 160,
     name: '生活',
     children: [
-      { rid: 160, name: '推荐' }, { rid: 138, name: '搞笑' }, { rid: 250, name: '出行' },
-      { rid: 251, name: '三农' }, { rid: 239, name: '家居房产' }, { rid: 161, name: '手工' },
-      { rid: 162, name: '绘画' }, { rid: 21, name: '日常' }, { rid: 174, name: '其他' }
+      { rid: 160, name: '推荐' }, { rid: 138, name: '搞笑' }, { rid: 254, name: '亲子' },
+      { rid: 250, name: '出行' }, { rid: 251, name: '三农' }, { rid: 239, name: '家居房产' },
+      { rid: 161, name: '手工' }, { rid: 162, name: '绘画' }, { rid: 174, name: '其他' },
+      { rid: 21, name: '日常' },
     ]
   },
   {
@@ -108,7 +111,8 @@ const partitionData = [
     name: '动物圈',
     children: [
       { rid: 217, name: '推荐' }, { rid: 218, name: '喵星人' }, { rid: 219, name: '汪星人' },
-      { rid: 220, name: '大熊猫' }, { rid: 221, name: '野生动物' }, { rid: 222, name: '爬宠' }
+      { rid: 222, name: '小宠异宠' }, { rid: 221, name: '野生动物' }, { rid: 220, name: '动物二创' },
+      { rid: 75, name: '动物综合' }
     ]
   },
   {
@@ -131,8 +135,9 @@ const partitionData = [
     tid: 5,
     name: '娱乐',
     children: [
-      { rid: 5, name: '推荐' }, { rid: 71, name: '综艺' }, { rid: 241, name: '娱乐杂谈' },
-      { rid: 242, name: '粉丝创作' }, { rid: 137, name: '明星综合' }
+      { rid: 5, name: '推荐' }, { rid: 241, name: '娱乐杂谈' }, { rid: 262, name: 'CP安利' },
+      { rid: 263, name: '颜值安利' }, { rid: 242, name: '娱乐粉丝创作' }, { rid: 264, name: '娱乐资讯' },
+      { rid: 137, name: '明星综合' }, { rid: 71, name: '综艺' }
     ]
   },
   {
@@ -140,7 +145,8 @@ const partitionData = [
     name: '影视',
     children: [
       { rid: 181, name: '推荐' }, { rid: 182, name: '影视杂谈' }, { rid: 183, name: '影视剪辑' },
-      { rid: 85, name: '小剧场' }, { rid: 184, name: '预告·资讯' }
+      { rid: 260, name: '影视整活' }, { rid: 259, name: 'AI影像' }, { rid: 184, name: '预告·资讯' },
+      { rid: 85, name: '小剧场' }, { rid: 256, name: '短片' }, { rid: 261, name: '影视综合' }
     ]
   },
   {
@@ -165,7 +171,7 @@ const partitionData = [
     children: [
       { rid: 11, name: '推荐' }, { rid: 185, name: '国产剧' }, { rid: 187, name: '海外剧' }
     ]
-  },
+  }
 ];
 
 // 分类

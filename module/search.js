@@ -1,4 +1,4 @@
-// 搜索首页
+// 搜索 - 默认排序
 
 module.exports = (query, request) => {
   const params = `keyword=${encodeURI(query.keyword)}&page=${query.page}&pagesize=${query.size}&context=`;

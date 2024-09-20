@@ -3,7 +3,7 @@
 module.exports = (query, request) => {
   return request(
     'GET',
-    `https://api.bilibili.com/x/web-interface/wx/hot?ps=100&teenage_mode=0&pn=${query.page}`,
+    `https://api.bilibili.com/x/web-interface/wx/hot?pn=${query.page}&ps=100&teenage_mode=0`,
     {},
     {
       crypto: 'm',

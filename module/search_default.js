@@ -1,4 +1,4 @@
-// 默认搜索关键词
+// 搜索 - 默认关键词
 
 module.exports = (query, request) => {
   return request(

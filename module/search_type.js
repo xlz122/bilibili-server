@@ -1,4 +1,4 @@
-// 搜索类型
+// 搜索 - 分类
 
 module.exports = (query, request) => {
   const params = `keyword=${encodeURI(query.keyword)}&search_type=${query.search_type}&order=${query.order}&page=${query.page}&pagesize=${query.size}&context=`;
